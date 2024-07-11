@@ -1,0 +1,140 @@
+body{
+    color: #40514e;
+    margin: 0;
+    text-align: center;
+    font-family: "Merriweather", serif;
+}
+.main{
+    background-color: #e4f9f5;
+    position: relative;
+    padding-top: 140px;
+}
+.main > .title{
+    text-align: center;
+    color: #66bfbf;
+}
+.main > .title h1{
+    font-size: 5.625rem;
+    margin:50px auto 0 auto;
+    font-family: "Sacramento", cursive;
+}
+h2{
+    color: #66bfbf;
+    font-size: 2.6rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+    font-family: "Montserrat", sans-serif;
+}
+.main > .title h2 span{
+    text-decoration: underline;
+}
+.right img{
+    position: absolute;
+    right: 300px;
+    top: 40px;
+}
+.left img{
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+}
+.mountain{
+    display: flex;
+    justify-content: center;
+}
+.Me{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.Me img{
+    height: 200px;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+}
+p{
+    line-height: 2;
+    font-size: 1.1rem;
+}
+.Me > p{
+    width: 30%;
+}
+.skills{
+    margin-bottom: 100px;
+}
+.skill-list{
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: 0.5fr 1fr;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+.skill-list > div h3{
+    color: #11999e;
+    font-size: 1.3rem;
+}
+.contact{
+    margin-bottom: 100px;
+}
+.contact h3{
+    color: #11999e;
+    font-family:"Montserrat", sans-serif;
+}
+.contact p{
+    width: 40%;
+    margin: 40px auto 60px;
+}
+.contact a{
+    background: #11cdd4;
+    font-family:"Montserrat", sans-serif;
+    background-image:linear-gradient(to bottom, #11cdd4, #11999e);
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+.contact a:hover{
+    background: #30e3cb;
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+}
+.footer{
+    background-color: #66bfbf;
+    padding: 50px 0 20px;
+}
+.footer ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.footer ul li a{
+    color:#11999e;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 1.1rem;
+
+}
+.footer p{
+    color: white;
+    font-size: 1rem;
+}
+
+@media (max-width : 980px){
+    body{
+        width: 980px;
+    }
+}
